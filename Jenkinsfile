@@ -14,7 +14,7 @@ pipeline {
         
          stage('Compile') {
             steps {
-              sh 'mvn compile'      // Jenkins doesn't understand mvn. so we want it to execut as shell command.
+              sh 'mvn compile'      // Jenkins doesn't understand mvn. so we want it to execut as shell command....
             }
         }
         
